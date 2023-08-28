@@ -7,8 +7,9 @@
     /* font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif; */
-
+    
 body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     position: fixed;
@@ -80,6 +81,10 @@ nav .profile-link a {
     border-bottom: 1px solid black;
 }
 
+/* ****************************** */
+/* *********** Main ************* */
+/* ****************************** */
+
 .home-main {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
@@ -105,4 +110,19 @@ nav .profile-link a {
     letter-spacing: 10px; /* espacio entre las letras */
     color: black;
     text-align: center;
+    color: white;
+}
+
+.home-main-button {
+    width: 110px;
+    height: 50px;
+    background: #48cfad;
+    /* background-color: #48cfad; */
+    display: grid;
+    align-items: center;
+}
+
+.home-main-button a {
+    font-weight: 700;
+    font-size: 18px;
 }
